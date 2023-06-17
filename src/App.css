@@ -4,119 +4,120 @@ body {
 }
 
 
-@media screen and (max-width:400px) and (min-height: 640px) {
-  .icon-btn {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-    height: 50px;
-  }
-
-  .icon-img {
-    width: 30px;
-    height: 30px;
-    object-fit: cover;
-  }
-
-
-  .name-btn {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .resume {
-    text-decoration: none;
-    color: white;
-    border: 2px solid gold;
-    padding: 7px;
-    border-radius: 40%;
-  }
-
-
-
-  /*-----Name-----*/
-  .name {
-    background-color: rgba(0, 0, 0, .5);
-    width: 100%;
-    height: 640px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
-    color: #fff;
-  }
-
-  /*-----About-----*/
-  .about {
-    width: 100%;
-    height: 250px;
-    background-color: rgba(42, 18, 90, .7);
-    color: #FFF
-  }
-
-  /* -----Skills-----*/
-  .frontend-ptag {
-    display: flex;
-    font-weight: bold;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 18px
-  }
-
-  .frontend {
-    /* height: 250px; */
-    font-size: 12px;
-    font-weight: bold;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: flex-start;
-    gap: 28px
-  }
-
-  .image {
-    height: 80px;
-    object-fit: cover
-  }
-
-  .frontskill {
-    width: 70px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center
-  }
-
-  .project-cont {
-    background-color: #01579B;
-    color: whitesmoke
-  }
-
-  .project {
-    /* height: 720px; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .project-list img {
-    width: 360px;
-    height: 100px;
-    object-fit: contain
-  }
-
-  .project-list img:hover {
-    cursor: pointer
-  }
-
-
-  .project-list {
-    margin-left: 10px;
-  }
+/* @media screen and (max-width:400px) and (min-height: 640px) { */
+.icon-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  height: 50px;
 }
+
+.icon-img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+
+.name-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.resume {
+  text-decoration: none;
+  color: white;
+  border: 2px solid gold;
+  padding: 7px;
+  border-radius: 40%;
+}
+
+
+
+/*-----Name-----*/
+.name {
+  background-color: rgba(0, 0, 0, .5);
+  width: 100%;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+}
+
+/*-----About-----*/
+.about {
+  width: 100%;
+  height: 250px;
+  background-color: rgba(42, 18, 90, .7);
+  color: #FFF
+}
+
+/* -----Skills-----*/
+.frontend-ptag {
+  display: flex;
+  font-weight: bold;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 18px
+}
+
+.frontend {
+  /* height: 250px; */
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 28px
+}
+
+.image {
+  height: 80px;
+  object-fit: cover
+}
+
+.frontskill {
+  width: 70px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.project-cont {
+  background-color: #01579B;
+  color: whitesmoke
+}
+
+.project {
+  /* height: 720px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-list img {
+  width: 360px;
+  height: 100px;
+  object-fit: contain
+}
+
+.project-list img:hover {
+  cursor: pointer
+}
+
+
+.project-list {
+  margin-left: 10px;
+}
+
+/* } */
