@@ -167,7 +167,7 @@ function ProjectList({ project }) {
       <p><b>{project.title}</b></p>
       <a href={project.url} target="new"><img src={project.img} alt={project.title} /></a>
       <p>{project.summary}</p>
-      <div clssName="github">
+      <div className="github">
         <a href={project.gitFront} target="new">Github Frontend</a>
         <a href={project.gitBack} target="new">Github Backend</a>
       </div>
