@@ -37,7 +37,7 @@ function Name() {
 function About() {
   return (
     <div className="about">
-      <b>About me</b>
+      <b className="title">About me</b>
       <p>As a fresher, seeking opportunity as a full stack developer.
         With a strong foundation in programming language, i am eager to
         apply my skills to real-world projects. I possess a solid
@@ -73,7 +73,7 @@ function SkillList() {
   ]
   return (
     <div className="skills">
-      <p><b>Skills</b></p>
+      <p className="title"><b>Skills</b></p>
       <p className="frontend-ptag">Frontend</p>
       <div className="frontend">
         {front.map((frt) => <Skills front={frt} />)}
@@ -153,7 +153,7 @@ function Projects() {
     }]
   return (
     <div className="project-cont">
-      <p><b>Project</b></p>
+      <p className="title"><b>Project</b></p>
       <div className="project">
         {project.map((project, index) => <ProjectList project={project} key={index} />)}
       </div>
