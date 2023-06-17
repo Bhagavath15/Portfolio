@@ -55,8 +55,8 @@ body {
   .about {
     width: 360px;
     padding: 15px;
-    background-color: rgba(42, 18, 90, .7);
-    color: #FFF
+    background-color: #01579B;
+    color: whitesmoke
   }
 
   /* -----Skills-----*/
@@ -100,8 +100,7 @@ body {
 
   .project-cont {
     padding: 15px;
-    background-color: #01579B;
-    color: whitesmoke
+
   }
 
   .project {
