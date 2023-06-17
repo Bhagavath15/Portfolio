@@ -29,7 +29,7 @@ body {
 
   .resume {
     text-decoration: none;
-    /* color: white; */
+    color: black;
     border: 2px solid dodgerblue;
     padding: 7px;
     border-radius: 25px;
@@ -58,7 +58,7 @@ body {
     width: 360px;
     padding: 15px;
     background-color: #b9e1dc;
-    /* color: whitesmoke */
+    color: #505050
   }
 
   /* -----Skills-----*/
