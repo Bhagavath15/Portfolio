@@ -130,4 +130,19 @@ body {
     margin-left: 10px;
 
   }
+
+  .github {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .github a {
+    text-decoration: none
+  }
+
+  .github a:hover {
+    cursor: pointer;
+    color: dodgerblue
+  }
 }
