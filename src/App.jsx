@@ -2,6 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Card from '@mui/material/Card';
+import CardHeader from '@mui/material/CardHeader';
+import CardMedia from '@mui/material/CardMedia';
+import CardContent from '@mui/material/CardContent';
+import CardActions from '@mui/material/CardActions';
 
 export default function App() {
   return (
@@ -37,12 +42,14 @@ function Name() {
 function About() {
   return (
     <div className="about">
-      <b className="title">About me</b>
-      <p>As a fresher, seeking opportunity as a full stack developer. With a strong foundation in programming, I am eager to apply my skills to real-world projects. I possess a solid understanding of coding and am motivated to continuously learn and grow in the field. I am a fast learner, highly adaptable, and always open to new technologies in the software development field.
-      </p>
-      <br />
-      <p><b>Interests :</b>  <span>Travel,Cricket</span></p>
-      <br />
+      <div className="about-content">
+        <b className="title">About me</b>
+        <p>As a fresher, seeking opportunity as a full stack developer. With a strong foundation in programming, I am eager to apply my skills to real-world projects. I possess a solid understanding of coding and am motivated to continuously learn and grow in the field. I am a fast learner, highly adaptable, and always open to new technologies in the software development field.
+        </p>
+        <br />
+        <p><b>Interests :</b>  <span>Travel,Cricket</span></p>
+        <br />
+      </div>
     </div >
   )
 }
@@ -149,8 +156,10 @@ function Projects() {
   return (
     <div className="project-cont">
       <p className="title"><b>Project</b></p>
-      <div className="project">
-        {project.map((project, index) => <ProjectList project={project} key={index} />)}
+      <div className="project-content">
+        <div className="project">
+          {project.map((project, index) => <ProjectList project={project} key={index} />)}
+        </div>
       </div>
     </div >
   )
@@ -159,14 +168,26 @@ function Projects() {
 function ProjectList({ project }) {
   return (
     <div className="project-list">
-      <p className="project-title"><b>{project.title}</b></p>
-      <a href={project.url} target="new"><img src={project.img} alt={project.title} /></a>
-      <p>{project.summary}</p>
-      <div className="github">
-        <a href={project.gitFront} target="new">Github Frontend</a>
-        <a href={project.gitBack} target="new">Github Backend</a>
-      </div>
-    </div>
+      {/* <p ><b>{project.title}</b></p> */}
+
+      <Card>
+        <CardHeader
+          className="project-title"
+          title={project.title}
+
+        />
+
+        <CardContent>
+          <a href={project.url} target="new"><img src={project.img} alt={project.title} /></a>
+          <p>{project.summary}</p>
+          <div className="github">
+            <a href={project.gitFront} target="new">Github Frontend</a>
+            <a href={project.gitBack} target="new">Github Backend</a>
+          </div>
+        </CardContent>
+      </Card>
+
+    </div >
   )
 }
 
