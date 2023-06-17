@@ -168,8 +168,8 @@ function ProjectList({ project }) {
       <a href={project.url} target="new"><img src={project.img} alt={project.title} /></a>
       <p>{project.summary}</p>
       <div>
-        <p>Github Frontend :</p><a href={project.gitFront} target="new">{project.gitFront}</a>
-        <p>Github Backend :</p><a href={project.gitBack} target="new">{project.gitBack}</a>
+        <a href={project.gitFront} target="new">Github Frontend</a>
+        <a href={project.gitBack} target="new">Github Backend</a>
       </div>
     </div>
   )
