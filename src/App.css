@@ -40,7 +40,7 @@ body {
   .name {
     background-color: rgba(0, 0, 0, .5);
     width: 100%;
-    max-height: 700px;
+    min-height: 700px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
