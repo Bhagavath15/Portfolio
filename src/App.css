@@ -1,6 +1,7 @@
 body {
   font-family: serif;
   margin: 0px;
+  padding: 15px;
 }
 
 
@@ -40,7 +41,7 @@ body {
   .name {
     background-color: rgba(0, 0, 0, .5);
     width: 100%;
-    min-height: 700px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
