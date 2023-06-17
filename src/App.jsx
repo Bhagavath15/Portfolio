@@ -38,12 +38,7 @@ function About() {
   return (
     <div className="about">
       <b className="title">About me</b>
-      <p>As a fresher, seeking opportunity as a full stack developer.
-        With a strong foundation in programming language, i am eager to
-        apply my skills to real-world projects. I possess a solid
-        understanding of coding and motivated to continuously learn and
-        grow in the field. I am a fast learner, highly adaptable, and
-        always open to new technologies in software development field.
+      <p>As a fresher, seeking opportunity as a full stack developer. With a strong foundation in programming, I am eager to apply my skills to real-world projects. I possess a solid understanding of coding and am motivated to continuously learn and grow in the field. I am a fast learner, highly adaptable, and always open to new technologies in the software development field.
       </p>
       <br />
       <p><b>Interests :</b>  <span>Travel,Cricket</span></p>
