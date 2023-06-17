@@ -139,11 +139,12 @@ body {
 
   .github a {
     text-decoration: none;
-    color: black
+    color: dodgerblue
   }
 
   .github a:hover {
     cursor: pointer;
-    color: dodgerblue
+    color: dodgerblue;
+    text-decoration: underline;
   }
 }
