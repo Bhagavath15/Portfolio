@@ -1,7 +1,7 @@
 body {
   font-family: serif;
   margin: 0px;
-  padding: 25px;
+
 }
 
 
@@ -54,6 +54,7 @@ body {
   /*-----About-----*/
   .about {
     width: 100%;
+    padding: 15px;
     background-color: rgba(42, 18, 90, .7);
     color: #FFF
   }
@@ -86,13 +87,14 @@ body {
 
   .frontskill {
     width: 70px;
-
+    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center
   }
 
   .project-cont {
+    padding: 15px;
     background-color: #01579B;
     color: whitesmoke
   }
