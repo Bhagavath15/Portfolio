@@ -159,7 +159,7 @@ function Projects() {
 function ProjectList({ project }) {
   return (
     <div className="project-list">
-      <p><b>{project.title}</b></p>
+      <p className="project-title"><b>{project.title}</b></p>
       <a href={project.url} target="new"><img src={project.img} alt={project.title} /></a>
       <p>{project.summary}</p>
       <div className="github">

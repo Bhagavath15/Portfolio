@@ -70,6 +70,7 @@ body {
   }
 
   .frontend-ptag {
+    text-decoration: underline;
     display: flex;
     font-weight: bold;
     flex-wrap: wrap;
@@ -126,6 +127,9 @@ body {
     cursor: pointer
   }
 
+  .project-title {
+    text-decoration: underline;
+  }
 
   .project-list {
     margin-left: 10px;
