@@ -152,4 +152,26 @@ body {
     color: dodgerblue;
     text-decoration: underline;
   }
+
+  /*------Contact-----*/
+  .contact {
+    padding: 15px;
+    background-color: #005691;
+    color: #FFF;
+  }
+
+  .email {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px
+  }
+
+  .email img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain
+  }
 }
