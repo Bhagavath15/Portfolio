@@ -33,6 +33,10 @@ body {
   border-radius: 25px;
 }
 
+.resume:hover {
+  box-shadow: 3px 3px dodgerblue
+}
+
 .title {
   font-size: 20px;
   text-decoration: underline
