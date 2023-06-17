@@ -177,6 +177,8 @@ function ProjectList({ project }) {
 
 function Interest() {
   return (
-    <div></div>
+    <div>
+
+    </div>
   )
 }
