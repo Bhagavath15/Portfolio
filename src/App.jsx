@@ -51,7 +51,7 @@ function About() {
     <div className="about-container">
       <section className='about'>
         <div className='main'>
-          <img src="./programmer.jpg" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0c5ia9mldt3fNRyyqY4Sr7GLtf1TQrjvHrw&usqp=CAU" />
           <div className='about-content'>
             <h2>About Me</h2>
             <h5>Full Stack <span> Developer</span></h5>
