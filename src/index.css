@@ -353,4 +353,11 @@ h4 {
 
         width: 300px;
     }
+
+    .contact-title {
+        color: white;
+        font-size: 55px;
+        margin: 0px auto;
+        text-align: center;
+    }
 }
