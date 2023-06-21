@@ -1,0 +1,302 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "San Francisco", "Helvetica", "Arial", "sans-serif";
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../backgroundimage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: #f9004d
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #f9004d;
+    transition: .4s;
+}
+
+.icon-btn {
+    position: absolute;
+    top: 65%;
+    left: 8%;
+    display: flex;
+    gap: 25px;
+}
+
+.icon-img {
+    width: 50px;
+    height: 50px;
+}
+
+.name-btn {
+    position: absolute;
+    top: 80%;
+    left: 8%
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 65px;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.about-container {
+    width: 100%;
+}
+
+.about {
+    width: 100%;
+
+    background-color: #191919;
+}
+
+.main {
+    padding: 100px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about img {
+    height: auto;
+    width: 430px;
+    object-fit: contain;
+}
+
+.about-content {
+    width: 550px
+}
+
+.about-content h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-content h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.about-content p {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.skills {
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title {
+    color: white;
+    font-size: 75px;
+    margin: 0px auto 30px;
+    text-align: center;
+}
+
+.skill-ptag {
+    color: white;
+    font-size: 25px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.card {
+    color: #fcfc;
+    height: 200px;
+    width: 250px;
+    padding: 20px 35px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image {
+    height: 100px;
+    object-fit: contain
+}
+
+.card-name,
+.card-btn {
+    background-color: #f9004d;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.card-btn:hover {
+    cursor: pointer;
+    border: 2px solid #f9004d;
+    background-color: transparent;
+}
+
+.project-container {
+    background-color: #101010;
+}
+
+.project-title {
+    color: white;
+    font-size: 25px;
+}
+
+.project-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.project-card {
+    color: #fcfc;
+    height: 600px;
+    width: 320px;
+    padding: 20px 35px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card img {
+    height: 300px;
+    width: 360px;
+    object-fit: contain;
+}
+
+.project-details {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.github {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+.contact {
+    background-color: #101010;
+}
+
+.contact-title {
+    color: white;
+    font-size: 75px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.icon {
+    color: #f9004d
+}
+
+.contact-details {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts {
+    background-color: #191919;
+    height: 60px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+    gap: 10px;
+    align-items: center;
+}
+
+.contacts p {
+    color: white
+}
