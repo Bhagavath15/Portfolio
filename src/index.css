@@ -334,4 +334,11 @@ h4 {
         margin-bottom: 5px;
         text-transform: capitalize;
     }
+
+    .title {
+        color: white;
+        font-size: 55px;
+        margin: 0px auto 30px;
+        text-align: center;
+    }
 }
