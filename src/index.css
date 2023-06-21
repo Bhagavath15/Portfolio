@@ -341,4 +341,11 @@ h4 {
         margin: 0px auto 30px;
         text-align: center;
     }
+
+    .skill-ptag {
+        color: white;
+        font-size: 22px;
+        margin: 30px auto;
+        text-align: center;
+    }
 }
