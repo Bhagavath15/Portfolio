@@ -372,6 +372,7 @@ h4 {
     .project-card {
 
         width: 300px;
+        height: max-content
     }
 
     .contact-title {
