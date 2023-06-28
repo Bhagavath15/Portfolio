@@ -159,7 +159,7 @@ function Projects() {
     },
     {
       "title": "Amazon Grocery",
-      "url": "https://lovely-paprenjak-6decb0.netlify.app/",
+      "url": "https://main--sage-concha-f29520.netlify.app/",
       "gitFront": "https://github.com/Bhagavath15/Amazon",
       "gitBack": "https://github.com/Bhagavath15/Amazon-Backend",
       "summary": "A online platform to buy wide range of groceries and household essentials providing seamless shopping experience",
