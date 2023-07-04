@@ -30,7 +30,7 @@ function Portfolio() {
       <div className='content'>
         <h4>Hello, my name is</h4>
         <h1>Bhagavathkumar</h1>
-        <h3>I am a Full stack Developer</h3>
+        <h3>I am a MERN stack Developer</h3>
       </div>
       <div className="icon-btn">
         <a href="https://github.com/Bhagavath15" target="new"><img className="icon-img" src="data:image/png;base64,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"
@@ -39,7 +39,7 @@ function Portfolio() {
         /></a>
       </div>
       <div className="name-btn">
-        <a className="card-btn" href="https://drive.google.com/file/d/1lkI6gfV12iRFyF2ZaBIRBnCtoxYWvvFD/view?usp=drive_link" target="new">Resume</a>
+        <a className="card-btn" href="https://docs.google.com/document/d/1ZcvOC5RPPVybkzPpKHj3D8ESHGI-_Vmt/edit?rtpof=true" target="new">Resume</a>
 
       </div>
     </div>
@@ -54,7 +54,7 @@ function About() {
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0c5ia9mldt3fNRyyqY4Sr7GLtf1TQrjvHrw&usqp=CAU" />
           <div className='about-content'>
             <h2>About Me</h2>
-            <h5>Full Stack <span> Developer</span></h5>
+            <h5>MERN Stack <span> Developer</span></h5>
             <p>
               As a fresher, seeking opportunity as a full stack developer. With a strong foundation in programming, I am eager to apply my skills to real-world projects. I possess a solid understanding of coding and am motivated to continuously learn and grow in the field. I am a fast learner, highly adaptable, and always open to new technologies in the software development field.
             </p>
@@ -192,8 +192,8 @@ function ProjectList({ project }) {
       <a href={project.url} target="new"><img src={project.img} alt={project.title} /></a>
       <p className="project-details">{project.summary}</p>
       <div className="github">
-        <a className="card-btn" href={project.gitFront} target="new">Github Frontend</a>
-        <a className="card-btn" href={project.gitBack} target="new">Github Backend</a>
+        <a className="card-btn" href={project.gitFront} target="_blank">Github Frontend</a>
+        <a className="card-btn" href={project.gitBack} target="_blank">Github Backend</a>
       </div>
 
 
