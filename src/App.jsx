@@ -56,7 +56,7 @@ function About() {
             <h2>About Me</h2>
             <h5>MERN Stack <span> Developer</span></h5>
             <p>
-              As a fresher, seeking opportunity as a full stack developer. With a strong foundation in programming, I am eager to apply my skills to real-world projects. I possess a solid understanding of coding and am motivated to continuously learn and grow in the field. I am a fast learner, highly adaptable, and always open to new technologies in the software development field.
+              As a fresher, seeking opportunity as a MERN stack developer. With a strong foundation in programming, I am eager to apply my skills to real-world projects. I possess a solid understanding of coding and am motivated to continuously learn and grow in the field. I am a fast learner, highly adaptable, and always open to new technologies in the software development field.
             </p>
           </div>
         </div>
