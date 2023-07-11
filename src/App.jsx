@@ -39,7 +39,7 @@ function Portfolio() {
         /></a>
       </div>
       <div className="name-btn">
-        <a className="card-btn" href="https://docs.google.com/document/d/1IdJT-MTHYHWzwFENESymRf8zTxJ91fDmLM1iF7Ikrs4/edit" target="new">Resume</a>
+        <a className="card-btn" href="https://drive.google.com/file/d/1pColHU89_AGt4XPhrFksdyaF2qMr5aIq/view?pli=1" target="new">Resume</a>
 
       </div>
     </div>
